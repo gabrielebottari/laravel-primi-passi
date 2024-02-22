@@ -21,9 +21,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
+                        <a class="nav-link" href="{{ route('home') }}">Home</a>
                         <a class="nav-link" href="{{ route('features') }}">Features</a>
-                        <a class="nav-link" href="{{ route('pricing') }}">Pricing</a>
+                        <a class="nav-link active" aria-current="page"  href="{{ route('pricing') }}">Pricing</a>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
         <!-- Hello World -->
         <div class="container bg-primary-subtle">
             <main class="p-5">
-                <h1>Hello World!</h1>
+                <h1>Pricing</h1>
             </main>          
         </div>
     </div>
